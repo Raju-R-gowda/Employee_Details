@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Mega Projectt</display-name>
+  <servlet>
+  <servlet-name>Raju</servlet-name>
+  <servlet-class>com.employeeservlet.www.CreateEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Raju</servlet-name>
+  <url-pattern>/form1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Raju1</servlet-name>
+  <servlet-class>com.employeeservlet.www.GetDataEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Raju1</servlet-name>
+  <url-pattern>/form2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Raju2</servlet-name>
+  <servlet-class>com.employeeservlet.www.UpdateEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Raju2</servlet-name>
+  <url-pattern>/form3</url-pattern>
+  </servlet-mapping>
+  <servlet> 
+  <servlet-name>Raju3</servlet-name>
+  <servlet-class>com.employeeservlet.www.DeleteEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Raju3</servlet-name>
+  <url-pattern>/form4</url-pattern>
+  </servlet-mapping>
+</web-app>
